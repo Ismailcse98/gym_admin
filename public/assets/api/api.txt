@@ -1,0 +1,19 @@
+1) http://127.0.0.1:8000/api/about
+2) http://127.0.0.1:8000/api/general
+3) http://127.0.0.1:8000/api/membership
+4) http://127.0.0.1:8000/api/push
+
+5) http://127.0.0.1:8000/api/banner
+6) http://127.0.0.1:8000/api/action-top
+7) http://127.0.0.1:8000/api/action-bottom
+8) http://127.0.0.1:8000/api/trainer-info
+9) http://127.0.0.1:8000/api/gallery
+10) http://127.0.0.1:8000/api/opinion
+11) http://127.0.0.1:8000/api/category
+12) http://127.0.0.1:8000/api/blog
+13) http://127.0.0.1:8000/api/packages
+14) http://127.0.0.1:8000/api/gettouch
+15) http://127.0.0.1:8000/api/blog-details/2
+
+//Send Message API
+1) http://127.0.0.1:8000/api/store_message
