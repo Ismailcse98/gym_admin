@@ -175,7 +175,15 @@
                         <a class="dropdown-item" href="profile.html"><i class="feather-edit me-1"></i> Edit Profile</a>
                         <a class="dropdown-item" href="account-settings.html"><i class="feather-sliders me-1"></i> Account Settings</a>
                         <hr class="my-0 ms-2 me-2">
-                        <a class="dropdown-item" href="login.html"><i class="feather-log-out me-1"></i> Logout</a>
+                        <a class="dropdown-item" href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                         document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
                     </div>
                 </li>
 

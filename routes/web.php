@@ -25,7 +25,7 @@ use App\Http\Controllers\GetTouchController;
 |
 */
 
-Route::get('/', [DashboardController::class,'Dashboard']);
+Route::get('/', [DashboardController::class,'Dashboard'])->name('home');
 
 // Message Table
 Route::get('/list_message',[CommonController::class,'Message'])->name('list_message');
@@ -100,8 +100,6 @@ Route::post('/store_touch',[GetTouchController::class,'store'])->name('store_tou
 
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 
